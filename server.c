@@ -36,7 +36,7 @@ int	main(int argc, char **argv)
 {
 	int	pid;
 
-	// (void)argv;
+	(void)argv;
 	if (argc != 1)
 	{
 		ft_printf("Try <./server>\n");
