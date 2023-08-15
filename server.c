@@ -45,7 +45,7 @@ int	main(int argc, char **argv)
 	pid = getpid();
 	ft_printf("Server PID: %i\n", pid);
 	ft_printf("Waiting for message from client...\n");
-	while (argc == 1);
+	while (argc == 1)
 	{
 		signal(SIGUSR1, sigusr_handler);
 		signal(SIGUSR2, sigusr_handler);
